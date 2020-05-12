@@ -24,7 +24,7 @@ for text in text_list:
     # r1, r2, ... should be int, just easy to store
     r1 = model1(text)
     r2 = model2(text)
-    # should be a tuple
+    # should be a tuple(short int, short int), this is what the format 'hh' means.
     values = (r1, r2)
     value_list.append(values)
 st.store(text_list, value_list)
