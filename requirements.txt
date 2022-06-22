@@ -2,7 +2,7 @@ addict==2.2.1
 datasketch==1.5.1
 DAWG==0.8.0
 jieba==0.42.1
-numpy==1.18.4
+numpy==1.22.0
 pnlp==0.21
 pybind11==2.5.0
 PyYAML==5.3.1
